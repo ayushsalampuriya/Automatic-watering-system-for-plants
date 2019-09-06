@@ -1,5 +1,5 @@
-int ACWATERPUMP = 13; //You can remove this line, it has no use in the program.
-int sensor = 8; //You can remove this line, it has no use in the program.
+int ACWATERPUMP = 13; 
+int sensor = 8; 
 int val; //This variable stores the value received from Soil moisture sensor.
 void setup() {
   pinMode(13,OUTPUT); //Set pin 13 as OUTPUT pin, to send signal to relay
